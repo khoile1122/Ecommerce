@@ -15,6 +15,10 @@ img {
     width: 100%;
 }
 
+p {
+    line-height: 1.5;
+}
+
 .nav__container {
     width: 100%;
     max-width: 1200px;
@@ -77,6 +81,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    margin-bottom: 24px;
 }
 
 .header__description {
@@ -155,6 +160,7 @@ HIGHLIGHT
 
 .highlight__img {
     border: 2px solid #7342d65d;
+    color: #7342d6;
     width: 100px;
     height: 100px;
     display: flex;
@@ -163,6 +169,8 @@ HIGHLIGHT
     border-radius: 4px;
     font-size: 12px;
     margin-bottom: 24px;
+    flex-direction: column;
+    text-align: center;
 }
 
 .highlight__subtitle {
