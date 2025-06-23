@@ -141,6 +141,7 @@ HIGHLIGHT
 
 */
 
+
 .highlight__wrapper {
     display: flex;
 }
@@ -176,5 +177,11 @@ HIGHLIGHT
 .highlight__subtitle {
     font-size: 20px;
     margin-bottom: 16px;
+}
+
+.highlight__wrapper--all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
