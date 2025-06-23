@@ -66,7 +66,7 @@ li {
 }
 
 header {
-    height: calc(100vh - 80px);
+    min-height: calc(100vh - 80px);
 }
 
 .header__container {
@@ -146,9 +146,27 @@ HIGHLIGHT
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: column;  
 }
 
 .highlight__para {
     text-align: center;
 }
+
+.highlight__img {
+    border: 2px solid #7342d65d;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    font-size: 12px;
+    margin-bottom: 24px;
+}
+
+.highlight__subtitle {
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
