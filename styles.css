@@ -66,7 +66,7 @@ li {
 }
 
 #landing {
-    background-color: rgba (115, 66, 214, 0.1);
+    background-color: rgb(115, 66, 214, 0.1);
 }
 
 header {
@@ -142,7 +142,7 @@ HIGHLIGHT
 
 */
 
-#highlight {
+#highlights {
     position: relative;
 }
 
@@ -180,7 +180,7 @@ HIGHLIGHT
     transform: translateY(-100%);
 }
 
-#highlight:after {
+#highlights:after {
     background: url('assets/wave.svg');
     content: "";
     position: absolute;
