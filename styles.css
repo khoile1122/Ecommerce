@@ -123,6 +123,7 @@ button:active {
 
 .header__imag--wrapper {
     padding: 20px;
+    z-index: 2;
 }
 
 .container {
@@ -165,7 +166,7 @@ HIGHLIGHT
     display: flex;
 }
 
-.hightlights:before {
+#hightlights:before {
     background: url('assets/wave.svg');
     content: "";
     position: absolute;
@@ -173,6 +174,24 @@ HIGHLIGHT
     height: 12vw;
     top: 1px;
     left: 0;
+    z-index: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: translateY(-100%);
+}
+
+#highlight:after {
+    background: url('assets/wave.svg');
+    content: "";
+    position: absolute;
+    width: 101vw;
+    height: 12vw;
+    bottom: 1px;
+    left: 0;
+    z-index: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: translateY(100%) rotate(180deg);
 }
 
 .highlight__wrapper {
@@ -218,5 +237,15 @@ HIGHLIGHT
     display: flex;
     justify-content: space-between;
     align-items: center; 
+}
+
+/*
+
+FEATURES
+
+*/
+
+#features {
+    background-color:rgba(115, 66, 214, 0.1);
 }
 
