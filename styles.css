@@ -235,7 +235,7 @@ FEATURES
 */
 
 #features {
-    padding: 8vw;
+    padding-top: 8vw;
     background-color:rgba(115, 66, 214, 0.1);
 }
 
@@ -256,12 +256,14 @@ FEATURES
 .book__img--wrapper {
     margin-bottom: 8px;
     border-radius: 4px;
-    overflow: hidden;
+    
 }
 
 .book:hover .book__img {
     transform:  scale(1.03);
 }
+
+
 
 
 
